@@ -1,0 +1,17 @@
+.about .img {
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 1024px)  {
+    .about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about .img {
+        margin-right: 5rem;
+    }
+    .about .text {
+        text-align: right;
+    }
+}
